@@ -32,9 +32,7 @@ function Console() {
 
     useEffect(() => {
         // console.log(endpoint);
-        submit === 1 ? fetch(`${endpoint}${param}${limit > 0 ? `?limit=${limit}` : ""}`,{
-            mode: 'no-cors'
-        })
+        submit === 1 ? fetch(`${endpoint}${param}${limit > 0 ? `?limit=${limit}` : ""}`)
             .then(response => {
                 if(response.status===404){
                     response.json()
