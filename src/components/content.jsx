@@ -59,7 +59,7 @@ function Content() {
                     <p>
                         <h3>-{`>`} Search for Articles</h3>
                         <SyntaxHighlighter language="markdown" style={okaidia} >
-                            GET http://localhost:3000/search/[topic]
+                            GET https://feedparsify.cyclic.app/search/[topic]
                         </SyntaxHighlighter>
                     </p>
                     <p>This would return a JSON object containing the search results for articles about
@@ -72,7 +72,7 @@ function Content() {
                     <p>
                         <h3>-{`>`} Articles Types</h3>
                         <SyntaxHighlighter language="markdown" style={okaidia} >
-                            GET http://localhost:3000/feeds/[article-type]
+                            GET https://feedparsify.cyclic.app/feeds/[article-type]
                         </SyntaxHighlighter>
                     </p>
                     <p>This endpoint retrieves news articles from a specified news source and
@@ -84,7 +84,7 @@ function Content() {
                     <p>
                         <h3>-{`>`} Articles by categories or locations</h3>
                         <SyntaxHighlighter language="markdown" style={okaidia} >
-                            GET http://localhost:3000/c1/[parameter]
+                            GET https://feedparsify.cyclic.app/c1/[parameter]
                         </SyntaxHighlighter>
                     </p>
                     <p>The endpoint retrieves news articles from a specific category of a news source

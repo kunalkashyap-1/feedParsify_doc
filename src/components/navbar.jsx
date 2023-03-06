@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 
 function Header() {
-    return (<nav>
+    return (<nav className="nav">
         <div className="logo">
         <img alt="logo" src="./logo192.png" />
         <Link to="/">FeedParsify</Link>
