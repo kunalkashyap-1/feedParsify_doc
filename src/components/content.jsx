@@ -16,7 +16,7 @@ function Content() {
                         for users to stay up-to-date with their favorite websites and topics.</p>
                 </div>
             </div>
-            <div className="intro" id="into">
+            <div className="intro" id="guide">
                 <h1>Introduction</h1>
                 <hr />
                 <p>The API provides a simple RESTful interface that can be easily integrated into any

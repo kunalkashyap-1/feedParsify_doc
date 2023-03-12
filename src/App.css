@@ -32,24 +32,19 @@ body {
   /* background-color:#2e323b; */
 }
 
-.nav img{
-  margin-left:10px;
-  vertical-align:top;
-  width:30px;
-  height:30px;
-}
-
-.nav {
+.navbar{
+  padding:0;
   position:sticky;
-  top:0px;
-  display:flex;
-  align-items:center;
-  text-align:center;
-  justify-content:space-between;
-  height:3.2rem;
+  top:0;
   background-color:#fff;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
+
+.navbar-brand{
+  font-size:1.7rem;
+  font-weight:600;
+}
+
 
 .logo {
   position:static;
@@ -60,9 +55,6 @@ body {
   text-decoration:none;
 }
 
-.nav .logo a{
-  font-size:1.7rem;
-}
 
 footer {
   /* position: absolute; */
@@ -72,15 +64,6 @@ footer {
   height: 2.5rem;
 }
 
-.nav a{
-  position:static;
-  color: black;
-  margin:1rem;
-  font-family: "Montserrat", sans-serif;
-  /* font-weight: 600; */
-  font-size:1.3rem;
-  text-decoration:none;
-}
 
 td{
   padding:0.6rem 1rem;
@@ -89,6 +72,10 @@ td{
 .anchor:hover{
   transition: ease-in-out 250ms;
   text-decoration:underline;
+}
+
+.nav-link{
+  font-size:1.3rem;
 }
 
 .console_local{
@@ -151,4 +138,16 @@ tr td:first-child{
 }
 .intro li{
   margin:0.7rem;
+}
+
+@media (max-width:990px){
+  .heroSection img{
+    display:none;
+  }
+  .heroSection{
+    margin:0;
+  }
+  .details{
+    margin:0
+  }
 }
