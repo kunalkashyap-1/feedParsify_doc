@@ -121,6 +121,7 @@ tr td:first-child{
 .heroSection img{
   width:120rem;
   height:30rem;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 .details,h1,p{
