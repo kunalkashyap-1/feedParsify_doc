@@ -2,7 +2,7 @@
 
 FeedParsify is a web application that parses and scrapes RSS feeds. The application provides a user-friendly interface to [live test](https://feedparsify.netlify.app/) the API and retrieve the parsed feed data in JSON format.
 
-![screenshot](Screenshot.png)
+![screenshot](https://raw.githubusercontent.com/kunalkashyap-1/feedParsify_doc/master/Screenshot.png)
 
 ## Features
 
